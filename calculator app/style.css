@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    color: red;
+    font-size: 40px;
+}
+nav ul{
+    padding:0 20px;
+    list-style-type: none;
+}
+.container{
+    margin-top: 1vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.display{
+    width: 15vw;
+    height: 3vw;
+    font-size:2vw ;
+}
+.key{
+    display: grid;
+    grid-template-rows: repeat(6,5vw);
+    grid-template-columns: repeat(3,5vw);
+}
+.box{
+    height: 5vw;
+    width: 5vw;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+.box:hover{
+    background-color: rgb(209, 148, 148);
+}
+.box:active{
+    background-color: green;
+}
