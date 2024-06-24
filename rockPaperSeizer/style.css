@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    background-color: black;
+    font-size: 50px;
+    color: red;
+}
+nav ul{
+    margin: 0 10px;
+    list-style-type: none;
+}
+.img-contaier{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+.img-class{
+    height: 200px;
+    width: 200px;
+}
+.img-class img{
+    height: 100%;
+    width: 100%;
+}
+.player1{
+    width: 50%;
+}
+.player2{
+    width: 50%;
+}
+.game{
+    text-align: center;
+    font-size: 24px;
+    /* text-align: center; */
+    display: flex;
+}
+.player1 h4 , .button-container{
+    margin: 40px;
+    padding: 3px auto;
+    border: 6px solid rgb(91, 91, 210);
+}
+.button-container button{
+    margin: 1px 4px;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.button-container button:hover{
+    background-color: rgb(238, 142, 142);
+}
+.button-container button:active{
+    background-color: rgb(86, 159, 175);
+}
+.scoreCard{
+    background-color: rgb(249, 235, 216);
+    border-radius: 5px;
+    margin: 0 30px;
+    color: rgb(76, 142, 10);
+    font-size: 30px;
+}
+.selection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.imgbox1 ,.imgbox2{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.imgbox1 img{
+    height: 100%;
+    width: 100%;
+}
+.imgbox2 img{
+    height: 100%;
+    width: 100%;
+}
